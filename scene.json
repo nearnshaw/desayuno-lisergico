@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "lisergico"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Nico",
+    "email": "earnshaw.nico@gmail.com"
+  },
+  "scene": {
+    "parcels": [
+      "0,0","0,1", "1,0", "1,1" 
+    ],
+    "base": "0,0"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://rendezvous.decentraland.org"
+  },
+  "policy": {
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": "0,0,0"
+  },
+  "main": "scene.js"
+}

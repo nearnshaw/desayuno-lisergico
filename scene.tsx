@@ -17,21 +17,9 @@ export default class DonutAnimation extends ScriptableScene {
     clickedOnManta() {
         this.setState({swimstate: !this.state.swimstate });
         this.setState({currentPos: 5 });
+        console.log(this.pointerId)
     }
 
-    async updateManta()
-    {
-        if (this.state.swimstate == true)
-            {
-                
-                this.state.currentPos = this.state.currentPos +  1;
-                if (this.state.currentPos > 5)
-                {
-                    this.state.currentPos = -7;
-                }
-
-            }
-    }
 
     async render() {
         const mantaPos = {
@@ -51,7 +39,7 @@ export default class DonutAnimation extends ScriptableScene {
                     position={mantaPos}
                     transition={ { position: { duration: 30000, timing: "linear" } } }
                     scale={1}
-                    src="models/mantaraya3.gltf"
+                    src="models/mantaraya.gltf"
                     skeletalAnimation={
                         this.state.swimstate
                             ? [

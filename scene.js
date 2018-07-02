@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../../Users/Nico/AppData/Local/Temp/0.17220201425927106.WebWorker.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../Users/Nico/AppData/Local/Temp/0.3825513394909703.WebWorker.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../../Users/Nico/AppData/Local/Temp/0.17220201425927106.WebWorker.js":
-/*!*************************************************************************!*\
-  !*** C:/Users/Nico/AppData/Local/Temp/0.17220201425927106.WebWorker.js ***!
-  \*************************************************************************/
+/***/ "../../../Users/Nico/AppData/Local/Temp/0.3825513394909703.WebWorker.js":
+/*!************************************************************************!*\
+  !*** C:/Users/Nico/AppData/Local/Temp/0.3825513394909703.WebWorker.js ***!
+  \************************************************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var C_Games_decentraland_desayuno_licergico_node_modules_metaverse_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/metaverse-rpc/lib/common/transports/WebWorker */ \"./node_modules/metaverse-rpc/lib/common/transports/WebWorker.js\");\n\n\nconst imported = __webpack_require__(/*! ./scene.tsx */ \"./scene.tsx\")\n\nif (imported && imported.__esModule && imported['default']) {\n  new imported['default'](Object(C_Games_decentraland_desayuno_licergico_node_modules_metaverse_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__[\"WebWorkerTransport\"])(self))\n}\n\n\n//# sourceURL=webpack:///C:/Users/Nico/AppData/Local/Temp/0.17220201425927106.WebWorker.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var C_Games_decentraland_desayuno_licergico_node_modules_metaverse_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/metaverse-rpc/lib/common/transports/WebWorker */ \"./node_modules/metaverse-rpc/lib/common/transports/WebWorker.js\");\n\n\nconst imported = __webpack_require__(/*! ./scene.tsx */ \"./scene.tsx\")\n\nif (imported && imported.__esModule && imported['default']) {\n  new imported['default'](Object(C_Games_decentraland_desayuno_licergico_node_modules_metaverse_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__[\"WebWorkerTransport\"])(self))\n}\n\n\n//# sourceURL=webpack:///C:/Users/Nico/AppData/Local/Temp/0.3825513394909703.WebWorker.js?");
 
 /***/ }),
 

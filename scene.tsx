@@ -51,7 +51,7 @@ export default class DonutAnimation extends ScriptableScene {
                     position={mantaPos}
                     transition={ { position: { duration: 30000, timing: "linear" } } }
                     scale={1}
-                    src="models/mantaraya2.gltf"
+                    src="models/mantaraya3.gltf"
                     skeletalAnimation={
                         this.state.swimstate
                             ? [

@@ -7,17 +7,22 @@ export default class DonutAnimation extends ScriptableScene {
     state = {
       
         swimstate: false,
-        currentPos: -7
+        currentPos: -7,
+ 
     };
  
     async sceneDidMount() {
-        this.eventSubscriber.on(`raya_click`, () => this.clickedOnManta());
+        this.eventSubscriber.on(`raya_click`, e => {
+
+
+            });
+
     }
 
     clickedOnManta() {
         this.setState({swimstate: !this.state.swimstate });
         this.setState({currentPos: 5 });
-        console.log(this.pointerId)
+        
     }
 
 
@@ -27,6 +32,7 @@ export default class DonutAnimation extends ScriptableScene {
             y: 6,
             z: this.state.currentPos
         };
+
       
 
         return (    
@@ -39,15 +45,15 @@ export default class DonutAnimation extends ScriptableScene {
                     position={mantaPos}
                     transition={ { position: { duration: 30000, timing: "linear" } } }
                     scale={1}
-                    src="models/mantaraya.gltf"
+                    src="models/mantaraya2.gltf"
                     skeletalAnimation={
                         this.state.swimstate
                             ? [
-                                  { clip: "manta_swim" , playing: true, loop:true }
+                                  { clip: "manta_glide" , playing: true, loop:true }
                 
                               ]
                             : [
-                                { clip: "manta_swim"
+                                { clip: "manta_glide"
                                 , playing: false, loop:false }
                               ]
                     }

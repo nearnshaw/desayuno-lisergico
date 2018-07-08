@@ -113,7 +113,7 @@ export default class DonutAnimation extends ScriptableScene {
       
 
         return (    
-            <scene  position={{ x: 0, y: 0, z: 0 }}>
+            <scene  position={{ x: 0, y: -0.35, z: 0 }}>
                 <gltf-model 
                     src="models/mesa.gltf"
                     scale={1.5}

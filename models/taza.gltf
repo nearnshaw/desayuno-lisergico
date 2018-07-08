@@ -1,0 +1,242 @@
+{
+    "accessors": [
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 11028,
+            "max": [
+                7903
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Cylinder.000_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7904,
+            "max": [
+                0.9974079728126526,
+                1.0,
+                0.9995262026786804
+            ],
+            "min": [
+                -0.9933179616928101,
+                -1.0,
+                -0.99508136510849
+            ],
+            "name": "accessor_buffer_Cylinder.000_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7904,
+            "max": [
+                1.9018197059631348,
+                1.1256964206695557,
+                0.9833610653877258
+            ],
+            "min": [
+                -0.9822894334793091,
+                -1.4686683416366577,
+                -0.9831603765487671
+            ],
+            "name": "accessor_buffer_Cylinder.000_POSITION_0",
+            "type": "VEC3"
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 94848,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Cylinder.000_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 94848,
+            "byteOffset": 94848,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Cylinder.000_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22060,
+            "byteOffset": 189696,
+            "name": "bufferView_buffer_Cylinder.000_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 211756,
+            "name": "buffer_taza",
+            "uri": "buffer_taza.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "tasa",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6235327124595642,
+                    0.64000004529953,
+                    0.4319751262664795,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cylinder.000",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                -0.37436309456825256,
+                0.7913640141487122,
+                -0.04711071401834488,
+                0.48101553320884705
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                4.961207389831543,
+                3.9658188819885254,
+                -3.2253148555755615
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                -0.34203386306762695,
+                -0.5232755541801453,
+                -0.2841663062572479,
+                0.7269423007965088
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -17.791763305664062,
+                3.007012367248535,
+                -6.689498424530029
+            ]
+        },
+        {
+            "name": "Sun",
+            "rotation": [
+                0.0,
+                0.7071068286895752,
+                0.7071068286895752,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -6.145663738250732,
+                10.96506404876709,
+                -5.272045612335205
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "tasa",
+            "rotation": [
+                0.0,
+                -0.8629685044288635,
+                0.0,
+                0.5052577257156372
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -0.23294925689697266,
+                1.4888195991516113,
+                0.030963927507400513
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": 0,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                2,
+                3,
+                1,
+                0
+            ]
+        }
+    ]
+}

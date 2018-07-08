@@ -21,10 +21,10 @@ export default class DonutAnimation extends ScriptableScene {
         //currentPos: {x: 0, y: 0, z: 0},
         rotacionFlashera: 0,
         recorrido:[
-            {x: 1,y: 8,z: 1},
-            {x: 1,y: 8,z: 9},
-            {x: 9,y: 8,z: 9},
-            {x: 9,y: 10,z: 1}
+            {x: 1,y: 7,z: 1},
+            {x: 1,y: 7,z: 9},
+            {x: 9,y: 7,z: 9},
+            {x: 9,y: 9,z: 1}
         ],
         angulos:[
             {y:270, x:0, z:17},
@@ -32,7 +32,7 @@ export default class DonutAnimation extends ScriptableScene {
             {y:90, x:0, z:17},
             {y:180, x:0, z:17}
         ],
-        posMano:{ x: 5.1, y: 2, z: 3.5 },
+        posMano:{ x: 5, y: 2, z: 5 },
         anguloMano:{y:0, x:0, z:15}
  
     };
@@ -46,7 +46,7 @@ export default class DonutAnimation extends ScriptableScene {
         this.subscribeTo('positionChanged', e => {
 
             this.pointAt(e.position);
-            console.log(e.position);
+            //console.log(e.position);
 
             // complicated version
            /*  const deltaX =  e.position.x - this.state.currentPos.x;
@@ -116,7 +116,7 @@ export default class DonutAnimation extends ScriptableScene {
                 <gltf-model 
                     src="models/mesa.gltf"
                     scale={0.60}
-                    position={{ x: 7, y: -0.1, z: 4 }}
+                    position={{ x: 5, y: 0, z: 5 }}
                 />
                  <gltf-model 
                     src="models/donutnado.gltf"
@@ -159,7 +159,12 @@ export default class DonutAnimation extends ScriptableScene {
                        
                     />
                 </entity>
-                
+                <gltf-model 
+                    src="models/taza2.gltf"
+                    scale={0.6}
+                    position={{ x: 9, y: 0, z: 2 }}
+                    
+                />
 
     
             </scene>

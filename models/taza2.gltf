@@ -4,9 +4,9 @@
             "bufferView": 2,
             "byteOffset": 0,
             "componentType": 5123,
-            "count": 11028,
+            "count": 8262,
             "max": [
-                7903
+                5830
             ],
             "min": [
                 0
@@ -18,16 +18,16 @@
             "bufferView": 1,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 7904,
+            "count": 5831,
             "max": [
                 0.9974079728126526,
                 1.0,
-                0.9995262026786804
+                0.9995261430740356
             ],
             "min": [
                 -0.9933179616928101,
                 -1.0,
-                -0.99508136510849
+                -0.9950810074806213
             ],
             "name": "accessor_buffer_Cylinder.000_NORMAL_0",
             "type": "VEC3"
@@ -36,7 +36,7 @@
             "bufferView": 4,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 51,
+            "count": 31,
             "max": [
                 -0.23294925689697266,
                 1.4888195991516113,
@@ -44,7 +44,7 @@
             ],
             "min": [
                 -0.23294925689697266,
-                -19.053016662597656,
+                1.4888195991516113,
                 0.030963927507400513
             ],
             "name": "accessor_buffer_tasa_tasa_tasaAction_0",
@@ -54,9 +54,9 @@
             "bufferView": 3,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 51,
+            "count": 31,
             "max": [
-                2.0833333333333344
+                1.25
             ],
             "min": [
                 0
@@ -68,11 +68,11 @@
             "bufferView": 6,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 51,
+            "count": 31,
             "max": [
+                0.9999999403953552,
                 1.0,
-                1.0,
-                1.0
+                0.9999999403953552
             ],
             "min": [
                 0.9999999403953552,
@@ -86,17 +86,17 @@
             "bufferView": 5,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 51,
+            "count": 31,
             "max": [
                 -0.6102109551429749,
                 0.3572711646556854,
                 0.3572711646556854,
-                0.6102110147476196
+                0.6102109551429749
             ],
             "min": [
-                -0.6102110147476196,
-                0.3572709262371063,
-                0.3572709262371063,
+                -0.6102109551429749,
+                0.3572711646556854,
+                0.3572711646556854,
                 0.6102109551429749
             ],
             "name": "accessor_buffer_tasa_tasa_tasaAction_1",
@@ -106,7 +106,7 @@
             "bufferView": 0,
             "byteOffset": 0,
             "componentType": 5126,
-            "count": 7904,
+            "count": 5831,
             "max": [
                 1.9018197059631348,
                 1.1256964206695557,
@@ -174,7 +174,7 @@
     "bufferViews": [
         {
             "buffer": 0,
-            "byteLength": 94848,
+            "byteLength": 69972,
             "byteOffset": 0,
             "byteStride": 12,
             "name": "bufferView_buffer_Cylinder.000_POSITION_0",
@@ -182,53 +182,53 @@
         },
         {
             "buffer": 0,
-            "byteLength": 94848,
-            "byteOffset": 94848,
+            "byteLength": 69972,
+            "byteOffset": 69972,
             "byteStride": 12,
             "name": "bufferView_buffer_Cylinder.000_NORMAL_0",
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteLength": 22060,
-            "byteOffset": 189696,
+            "byteLength": 16528,
+            "byteOffset": 139944,
             "name": "bufferView_buffer_Cylinder.000_0",
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteLength": 204,
-            "byteOffset": 211756,
+            "byteLength": 124,
+            "byteOffset": 156472,
             "byteStride": 4,
             "name": "bufferView_buffer_tasa_tasaAction_time_0"
         },
         {
             "buffer": 0,
-            "byteLength": 612,
-            "byteOffset": 211960,
+            "byteLength": 372,
+            "byteOffset": 156596,
             "byteStride": 12,
             "name": "bufferView_buffer_tasa_tasa_tasaAction_0"
         },
         {
             "buffer": 0,
-            "byteLength": 816,
-            "byteOffset": 212572,
+            "byteLength": 496,
+            "byteOffset": 156968,
             "byteStride": 16,
             "name": "bufferView_buffer_tasa_tasa_tasaAction_1"
         },
         {
             "buffer": 0,
-            "byteLength": 612,
-            "byteOffset": 213388,
+            "byteLength": 372,
+            "byteOffset": 157464,
             "byteStride": 12,
             "name": "bufferView_buffer_tasa_tasa_tasaAction_2"
         }
     ],
     "buffers": [
         {
-            "byteLength": 214000,
-            "name": "buffer_taza",
-            "uri": "buffer_taza.bin"
+            "byteLength": 157836,
+            "name": "buffer_taza2",
+            "uri": "buffer_taza2.bin"
         }
     ],
     "cameras": [

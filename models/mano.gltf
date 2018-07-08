@@ -1,0 +1,247 @@
+{
+    "accessors": [
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 3252,
+            "max": [
+                2277
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_mesh764930239_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2278,
+            "max": [
+                0.13808239996433258,
+                0.1150669977068901,
+                0.08385015279054642
+            ],
+            "min": [
+                -0.2214704006910324,
+                -0.11405470222234726,
+                -0.1344550997018814
+            ],
+            "name": "accessor_buffer_mesh764930239_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2278,
+            "max": [
+                0.215332493185997,
+                1.2842389941215515
+            ],
+            "min": [
+                -0.21614889800548553,
+                0.8456611037254333
+            ],
+            "name": "accessor_buffer_mesh764930239_TEXCOORD_0_0",
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2278,
+            "max": [
+                0.9998733401298523,
+                0.9931115508079529,
+                0.9994415044784546
+            ],
+            "min": [
+                -0.9994392991065979,
+                -0.9982836842536926,
+                -0.997344434261322
+            ],
+            "name": "accessor_buffer_mesh764930239_NORMAL_0",
+            "type": "VEC3"
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 27336,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_mesh764930239_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27336,
+            "byteOffset": 27336,
+            "byteStride": 12,
+            "name": "bufferView_buffer_mesh764930239_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18224,
+            "byteOffset": 54672,
+            "byteStride": 8,
+            "name": "bufferView_buffer_mesh764930239_TEXCOORD_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6508,
+            "byteOffset": 72896,
+            "name": "bufferView_buffer_mesh764930239_0",
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 79404,
+            "name": "buffer_mano",
+            "uri": "buffer_mano.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "mat16",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5981873273849487,
+                    0.4055697023868561,
+                    0.2961503267288208,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh764930239",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 3,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 0,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                -0.09062843769788742,
+                -0.8937962651252747,
+                -0.2099730223417282,
+                0.38578000664711
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -7.481131553649902,
+                5.34366512298584,
+                -6.5076398849487305
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                -0.34203386306762695,
+                -0.5232755541801453,
+                -0.2841663062572479,
+                0.7269423007965088
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -4.076245307922363,
+                5.903861999511719,
+                1.0054539442062378
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "mesh764930239",
+            "rotation": [
+                -0.705433189868927,
+                -0.04862147569656372,
+                -0.2805687189102173,
+                0.6490617394447327
+            ],
+            "scale": [
+                9.413418769836426,
+                9.41341781616211,
+                9.413418769836426
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": 0,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                2,
+                1,
+                0
+            ]
+        }
+    ]
+}

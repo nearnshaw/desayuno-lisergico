@@ -10,6 +10,7 @@ export interface IState {
     angulos: Vector3Component[],
     anguloMano: Vector3Component,
     posMano: Vector3Component,
+    tazaRota: false,
     
   }
 
@@ -33,13 +34,17 @@ export default class DonutAnimation extends ScriptableScene {
             {y:180, x:0, z:17}
         ],
         posMano:{ x: 5, y: 2, z: 5 },
-        anguloMano:{y:0, x:0, z:15}
+        anguloMano:{y:0, x:0, z:15},
+        tazaRota: false,
  
     };
  
     async sceneDidMount() {
-        this.eventSubscriber.on(`raya_click`, () => {
+
+        this.eventSubscriber.on(`taza_click`, () => {
             console.log("clicked");
+            this.setState({tazaRota: true});
+            
 
             
             });
@@ -160,9 +165,24 @@ export default class DonutAnimation extends ScriptableScene {
                     />
                 </entity>
                 <gltf-model 
+                    id="taza"
                     src="models/taza2.gltf"
                     scale={0.6}
                     position={{ x: 9, y: 0, z: 2 }}
+                    skeletalAnimation={
+                        this.state.tazaRota
+                            ? [
+                                  { clip: "tasa_tasaAction" , playing: true, loop:false }
+                
+                              ]:
+                              [
+                                { clip: "tasa_tasaAction" , playing: true, loop:false }
+              
+                            ]
+
+                    }
+
+
                     
                 />
 

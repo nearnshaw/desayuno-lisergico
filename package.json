@@ -1,15 +1,18 @@
 {
   "name": "dcl-project",
   "version": "1.0.0",
-  "description": "My new Decentraland project",
+  "description": "Some weird experiments, don't overthink it.",
   "scripts": {
     "build": "metaverse-compiler build.json",
     "watch": "metaverse-compiler build.json --watch"
   },
-  "author": "",
+  "author": "Nico Earnshaw",
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
+    "ajv": "^6.5.2",
+    "chai": "^4.1.2",
+    "ipfs": "^0.30.0",
     "metaverse-api": "^4.0.2"
   }
 }

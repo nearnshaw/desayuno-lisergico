@@ -1,17 +1,17 @@
 {
   "display": {
-    "title": "lisergico"
+    "title": "Tripping balls"
   },
-  "owner": "",
+  "owner": "0xe2b6024873d218b2e83b462d3658d8d7c3f55a18",
   "contact": {
-    "name": "Nico",
-    "email": "earnshaw.nico@gmail.com"
+    "name": "Nico E",
+    "email": "nearnshaw@decentraland.org"
   },
   "scene": {
     "parcels": [
-      "0,0"
+      "-137,-32"
     ],
-    "base": "0,0"
+    "base": "-137,-32"
   },
   "communications": {
     "type": "webrtc",
